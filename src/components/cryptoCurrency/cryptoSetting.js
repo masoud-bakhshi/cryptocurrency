@@ -171,7 +171,7 @@ export default function CryptoSetting({ open, setOpen, setRefresh }) {
               <CloseIcon />
             </IconButton>
             <Typography variant="h6" className={classes.title}>
-              تنظیمات ارزهای دیجیتال
+              Crypto config
             </Typography>
           </Toolbar>
         </AppBar>
@@ -189,14 +189,13 @@ export default function CryptoSetting({ open, setOpen, setRefresh }) {
             className={classes.halfLeft}
           >
             <div className={classes.paper}>
-              <div style={{ direction: "rtl" }}>
+              <div style={{ direction: "ltr" }}>
                 <Typography
                   component="h1"
                   variant="h5"
                   className={classes.type}
                 >
-                  لطفا 9 عدد از ارزهایی که میخواهید گزارش آن ها را ببینید،
-                  انتخاب نمایید.
+                  just choose 9 coin and see the report
                 </Typography>
               </div>
               <div>
@@ -426,7 +425,7 @@ export default function CryptoSetting({ open, setOpen, setRefresh }) {
                           //   disabled={submitted}
                           className={classes.submit}
                         >
-                          تایید
+                          Modify
                         </Button>
                       </Grid>
                     </ValidatorForm>

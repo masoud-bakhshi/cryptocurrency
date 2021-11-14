@@ -67,13 +67,16 @@ function CryptoCurrency() {
             align="center"
             style={{ marginTop: "0px" }}
           >
+            <Typography variant="h4" gutterBottom>
+              DeveloperCodeBase
+            </Typography>
             <Button
               variant="contained"
               color="primary"
               onClick={settingButt}
               startIcon={<PostAddIcon />}
             >
-              تنظیمات
+              Config
             </Button>
           </div>
           <div>
